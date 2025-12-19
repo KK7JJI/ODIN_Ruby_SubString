@@ -9,6 +9,8 @@ Method accepts
 The method searches primary_string for each sub_string in the dictionary.  The
 method returns a hash containing all sub_strings which were found in the
 primary_string and the number of instances each was found.
+--Matches are **not** case sensitive
+--Special characters are permitted
 
 If there are no matches the method returns an empty hash "{}".
 
@@ -32,6 +34,7 @@ irb(main):003> dictionary = [
   "part",
   "partner",
   "sit"
+  "sharrington@gmail.com
 ]
 irb(main):004> find_sub_strings(primary_string, dictionary)
 ```

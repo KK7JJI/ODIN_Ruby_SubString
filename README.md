@@ -10,8 +10,8 @@ The method searches primary_string for each sub_string in the dictionary.  The
 method returns a hash containing all sub_strings which were found in the
 primary_string and the number of instances each was found.
 
--Matches are **not** case sensitive
--Special characters are permitted
+- Matches are **not** case sensitive
+- Special characters are permitted
 
 If there are no matches the method returns an empty hash "{}".
 

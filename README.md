@@ -3,7 +3,7 @@
 ## Requirements:
 
 Method accepts
-- a string to be searched, primeary_string.
+- a string to be searched, primary_string.
 - an array of sub_strings, a "dictionary",
 
 The method searches primary_string for each sub_string in the dictionary.  The
